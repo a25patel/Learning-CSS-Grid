@@ -6,10 +6,11 @@
 - Things to think about: box models, floats, displays, width calculations.
 - Make them responsive
 
-###Example.png
+####Example.png
  - Your HTML should consist of all 'div' tags with the same class names as what's shown in the image
  - Practice using your selectors!
- - Example:   
+ - Example:
+    ```
     <div class='row'>
       .row
       <div class ='col-4'>
@@ -19,11 +20,13 @@
         .col-8
       </div>
     </div>
+  ```
 
-###Semantic_example.png
+####Semantic_example.png
 - Set up your html with the same semantic tags as shown in the image!
 - Practice using your selectors!
 - Example:
+  ```
     <div id='container'>
       <footer>
         <nav>
@@ -32,6 +35,7 @@
         Footer
       </footer>
     </div>
+  ```
 
 ## Server
 1. In the terminal, `cd` into the root of this project.
