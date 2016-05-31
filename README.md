@@ -1,7 +1,7 @@
 # Building Grids with CSS
 
 ### Objective:
-- Build a grid mimicking the ones in the images folder using selectors and declarations.
+- Build a grid mimicking the one in the images folder using selectors and declarations.
 - Practice using Semantic HTML
 - Things to think about: box models, floats, displays, width calculations.
 - Make them responsive
