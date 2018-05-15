@@ -3,3 +3,94 @@ h1 {
   font-weight: bold;
   font-size: 40px;
 }
+
+/*Main */
+
+div{
+  background-color: #4f81bd;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 10px 0px;
+  padding: 10px 10px 10px 10px;
+  height: 100vh;
+  text-align: right;
+}
+
+/*Header */
+
+header{
+  background-color: tomato;
+  border: 2px solid #964144;
+  padding: 1%;
+}
+
+/* Main Section*/
+
+section{
+  background-color: #9bbb59;
+  border: 2px solid #6d8753;
+  padding: 1%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-gap: 0px 10px;
+  text-align: right;
+}
+
+/*Left Section */
+
+section:first-child{
+  background-color: #4875ab;
+  border: 2px solid #3f648a;
+  padding: 3%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 10px 0px;
+
+
+}
+
+.section{
+  background-color: #a2a2a2;
+  border: 2px solid #3f648a;
+  padding: 3%;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr;
+  grid-gap: 10px 0px;
+}
+
+aside{
+  background-color: white;
+  border: 2px solid #3f648a;
+  padding: 1%;
+}
+
+/*Right Section*/
+
+section:nth-of-type(2){
+  background-color: #8064a2;
+  border: 2px solid #67557d;
+}
+
+article{
+  background-color: #ffff03;
+  border: 2px solid #4b5a96;
+  padding: 1%;
+  grid-column: 1 / 3;
+}
+
+/*Footer */
+
+footer{
+  background-color: #f79646;
+  border: 2px solid #cc7c36;
+  padding: 1%;
+}
+
+nav{
+  background-color: #4bacc6;
+  border: 2px solid #2d8eab;
+  padding: 1%;
+}
