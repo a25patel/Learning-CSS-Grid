@@ -1,0 +1,98 @@
+/*Your code here*/
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/*Main */
+
+div{
+  background-color: #4f81bd;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1%;
+  text-align: right;
+}
+
+/*Header */
+
+header{
+  background-color: tomato;
+  border: 2px solid #964144;
+  margin: .5% 0 .5% 0;
+  padding: 1%;
+  flex-grow: 1;
+}
+
+/* Main Section*/
+
+section{
+  background-color: #9bbb59;
+  border: 2px solid #6d8753;
+  margin: .5% 0 .5% 0;
+  flex-grow: 3;
+  padding: 1%;
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: right;
+}
+
+/*Left Section */
+
+section:first-child{
+  background-color: #4875ab;
+  border: 2px solid #3f648a;
+  flex-grow: 1;
+  margin-right: 2%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.section{
+  background-color: #a2a2a2;
+  border: 2px solid #3f648a;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+aside{
+  background-color: white;
+  border: 2px solid #3f648a;
+  padding: 1%;
+  flex-grow: 1;
+}
+
+/*Right Section*/
+
+section:nth-of-type(2){
+  background-color: #8064a2;
+  border: 2px solid #67557d;
+  flex-grow: 4;
+}
+
+article{
+  background-color: #ffff03;
+  border: 2px solid #4b5a96;
+  box-sizing: border-box;
+  width: 95%;
+  padding: 1%;
+  flex-grow: 1;
+}
+
+/*Footer */
+
+footer{
+  background-color: #f79646;
+  border: 2px solid #cc7c36;
+  flex-grow: 1;
+  margin: .5% 0 .5% 0;
+  padding: 1%;
+}
+
+nav{
+  background-color: #4bacc6;
+  border: 2px solid #2d8eab;
+  padding: 1%;
+}
